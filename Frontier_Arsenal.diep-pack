@@ -1,0 +1,3136 @@
+{
+  "version": 2,
+  "name": "Frontier Arsenal",
+  "tanks": [
+    {
+      "id": 101001,
+      "name": "Needlepoint",
+      "minLevel": 15,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 120,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 1,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        0
+      ],
+      "barrels": [
+        {
+          "distance": 86,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 1,
+          "reloadMultiplier": 1.05,
+          "speedMultiplier": 1.08,
+          "bulletSizeMultiplier": 0.9,
+          "lifetime": 1.15,
+          "spreadMultiplier": 0.12,
+          "recoilMultiplier": 0.25
+        }
+      ],
+      "helpText": "Steady precision shots with modest recoil.",
+      "advancesInto": [
+        101101,
+        101102
+      ]
+    },
+    {
+      "id": 101002,
+      "name": "Shardshot",
+      "minLevel": 15,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 125,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 1,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        0
+      ],
+      "barrels": [
+        {
+          "distance": 78,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.32,
+          "reloadMultiplier": 1,
+          "speedMultiplier": 1,
+          "bulletSizeMultiplier": 0.7,
+          "lifetime": 0.9,
+          "spreadMultiplier": 1.25,
+          "recoilMultiplier": 0.35,
+          "numBullets": 3
+        }
+      ],
+      "helpText": "Three light pellets per volley; strongest up close.",
+      "advancesInto": [
+        101103,
+        101104
+      ]
+    },
+    {
+      "id": 101003,
+      "name": "Kickback",
+      "minLevel": 15,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 130,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 0.99,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        0
+      ],
+      "barrels": [
+        {
+          "distance": 78,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.78,
+          "reloadMultiplier": 1.15,
+          "speedMultiplier": 0.95,
+          "bulletSizeMultiplier": 1.05,
+          "lifetime": 1,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.85,
+          "knockbackMultiplier": 1.9
+        }
+      ],
+      "helpText": "Lower sustained damage, but extra push on hits.",
+      "advancesInto": [
+        101105,
+        101106
+      ]
+    },
+    {
+      "id": 101004,
+      "name": "Hedgecaster",
+      "minLevel": 15,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 130,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 0.98,
+      "projectiles": [
+        {
+          "name": "Trap",
+          "base": "trap",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        12
+      ],
+      "barrels": [
+        {
+          "distance": 69,
+          "muzzleScale": 1,
+          "bulletType": "trap",
+          "projectile": 0,
+          "damageMultiplier": 0.43,
+          "reloadMultiplier": 1.1,
+          "speedMultiplier": 0.9,
+          "bulletSizeMultiplier": 1,
+          "lifetime": 12,
+          "spreadMultiplier": 0.2,
+          "recoilMultiplier": 0.15,
+          "angle": -0.17,
+          "order": 1
+        },
+        {
+          "distance": 69,
+          "muzzleScale": 1,
+          "bulletType": "trap",
+          "projectile": 0,
+          "damageMultiplier": 0.43,
+          "reloadMultiplier": 1.1,
+          "speedMultiplier": 0.9,
+          "bulletSizeMultiplier": 1,
+          "lifetime": 12,
+          "spreadMultiplier": 0.2,
+          "recoilMultiplier": 0.15,
+          "angle": 0.17,
+          "order": 2
+        }
+      ],
+      "helpText": "Angled traps control space instead of relying on direct hits.",
+      "advancesInto": [
+        101107,
+        101108
+      ]
+    },
+    {
+      "id": 101005,
+      "name": "Farline",
+      "minLevel": 15,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 115,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 0.98,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        2
+      ],
+      "barrels": [
+        {
+          "distance": 112,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 1.22,
+          "reloadMultiplier": 1.35,
+          "speedMultiplier": 1.25,
+          "bulletSizeMultiplier": 0.95,
+          "lifetime": 1.6,
+          "spreadMultiplier": 0.08,
+          "recoilMultiplier": 0.65
+        }
+      ],
+      "helpText": "Long-range single shots, weaker in close fights.",
+      "zoomMultiplier": 1.04,
+      "advancesInto": [
+        101109,
+        101110
+      ]
+    },
+    {
+      "id": 101006,
+      "name": "Orbit",
+      "minLevel": 15,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 125,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 1.04,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        4
+      ],
+      "barrels": [
+        {
+          "distance": 78,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.72,
+          "reloadMultiplier": 1,
+          "speedMultiplier": 1,
+          "bulletSizeMultiplier": 0.95,
+          "lifetime": 1,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.35,
+          "angle": 0,
+          "order": 1
+        },
+        {
+          "distance": 67,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.43,
+          "reloadMultiplier": 1,
+          "speedMultiplier": 1,
+          "bulletSizeMultiplier": 0.85,
+          "lifetime": 0.9,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.25,
+          "angle": 3.141592653589793,
+          "order": 2
+        }
+      ],
+      "helpText": "Front-and-rear coverage trades forward damage for safety.",
+      "advancesInto": [
+        101111,
+        101112
+      ]
+    },
+    {
+      "id": 101101,
+      "name": "Twin Needle",
+      "minLevel": 30,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 120,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 1,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101001
+      ],
+      "barrels": [
+        {
+          "distance": 84,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.61,
+          "reloadMultiplier": 1.02,
+          "speedMultiplier": 1.07,
+          "bulletSizeMultiplier": 0.88,
+          "lifetime": 1.1,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.25,
+          "offset": -15,
+          "order": 1
+        },
+        {
+          "distance": 84,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.61,
+          "reloadMultiplier": 1.02,
+          "speedMultiplier": 1.07,
+          "bulletSizeMultiplier": 0.88,
+          "lifetime": 1.1,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.25,
+          "offset": 15,
+          "order": 2
+        }
+      ],
+      "helpText": "Specialized bullet pattern with a deliberate damage and coverage trade-off.",
+      "advancesInto": [
+        101201,
+        101202
+      ]
+    },
+    {
+      "id": 101102,
+      "name": "Stitcher",
+      "minLevel": 30,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 118,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 1,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101001
+      ],
+      "barrels": [
+        {
+          "distance": 83,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.57,
+          "reloadMultiplier": 1.05,
+          "speedMultiplier": 1.1,
+          "bulletSizeMultiplier": 0.9,
+          "lifetime": 1.15,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.2,
+          "angle": -0.13,
+          "order": 1
+        },
+        {
+          "distance": 83,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.57,
+          "reloadMultiplier": 1.05,
+          "speedMultiplier": 1.1,
+          "bulletSizeMultiplier": 0.9,
+          "lifetime": 1.15,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.2,
+          "angle": 0.13,
+          "order": 2
+        }
+      ],
+      "helpText": "Specialized bullet pattern with a deliberate damage and coverage trade-off.",
+      "advancesInto": [
+        101203,
+        101204
+      ]
+    },
+    {
+      "id": 101103,
+      "name": "Coneburst",
+      "minLevel": 30,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 128,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 1,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101002
+      ],
+      "barrels": [
+        {
+          "distance": 77,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.18,
+          "reloadMultiplier": 1,
+          "speedMultiplier": 1,
+          "bulletSizeMultiplier": 0.68,
+          "lifetime": 0.9,
+          "spreadMultiplier": 1.25,
+          "recoilMultiplier": 0.3,
+          "numBullets": 5
+        }
+      ],
+      "helpText": "Specialized bullet pattern with a deliberate damage and coverage trade-off.",
+      "advancesInto": [
+        101205,
+        101206
+      ]
+    },
+    {
+      "id": 101104,
+      "name": "Fanline",
+      "minLevel": 30,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 125,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 1,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101002
+      ],
+      "barrels": [
+        {
+          "distance": 78,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.37,
+          "reloadMultiplier": 1.08,
+          "speedMultiplier": 1,
+          "bulletSizeMultiplier": 0.88,
+          "lifetime": 1,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.3,
+          "angle": -0.27,
+          "order": 1
+        },
+        {
+          "distance": 80,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.37,
+          "reloadMultiplier": 1.08,
+          "speedMultiplier": 1,
+          "bulletSizeMultiplier": 0.88,
+          "lifetime": 1,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.3,
+          "angle": 0,
+          "order": 2
+        },
+        {
+          "distance": 78,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.37,
+          "reloadMultiplier": 1.08,
+          "speedMultiplier": 1,
+          "bulletSizeMultiplier": 0.88,
+          "lifetime": 1,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.3,
+          "angle": 0.27,
+          "order": 3
+        }
+      ],
+      "helpText": "Specialized bullet pattern with a deliberate damage and coverage trade-off.",
+      "advancesInto": [
+        101207,
+        101208
+      ]
+    },
+    {
+      "id": 101105,
+      "name": "Piledriver",
+      "minLevel": 30,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 138,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 0.96,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101003
+      ],
+      "barrels": [
+        {
+          "distance": 74,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 1.34,
+          "reloadMultiplier": 1.48,
+          "speedMultiplier": 0.8,
+          "bulletSizeMultiplier": 1.2,
+          "lifetime": 0.9,
+          "spreadMultiplier": 0.08,
+          "recoilMultiplier": 1,
+          "knockbackMultiplier": 1.65
+        }
+      ],
+      "helpText": "Specialized bullet pattern with a deliberate damage and coverage trade-off.",
+      "advancesInto": [
+        101209,
+        101210
+      ]
+    },
+    {
+      "id": 101106,
+      "name": "Aftershock",
+      "minLevel": 30,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 130,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 0.99,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101003
+      ],
+      "barrels": [
+        {
+          "distance": 79,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.66,
+          "reloadMultiplier": 1.12,
+          "speedMultiplier": 1,
+          "bulletSizeMultiplier": 0.94,
+          "lifetime": 1,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.45,
+          "order": 1
+        },
+        {
+          "distance": 79,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.46,
+          "reloadMultiplier": 1.12,
+          "speedMultiplier": 1,
+          "bulletSizeMultiplier": 0.9,
+          "lifetime": 0.95,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.45,
+          "delay": 0.22,
+          "order": 2
+        }
+      ],
+      "helpText": "Specialized bullet pattern with a deliberate damage and coverage trade-off.",
+      "advancesInto": [
+        101211,
+        101212
+      ]
+    },
+    {
+      "id": 101107,
+      "name": "Lattice",
+      "minLevel": 30,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 132,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 0.98,
+      "projectiles": [
+        {
+          "name": "Trap",
+          "base": "trap",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101004
+      ],
+      "barrels": [
+        {
+          "distance": 68,
+          "muzzleScale": 1,
+          "bulletType": "trap",
+          "projectile": 0,
+          "damageMultiplier": 0.34,
+          "reloadMultiplier": 1.12,
+          "speedMultiplier": 0.92,
+          "bulletSizeMultiplier": 0.95,
+          "lifetime": 12,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.1,
+          "angle": -0.23,
+          "order": 1
+        },
+        {
+          "distance": 70,
+          "muzzleScale": 1,
+          "bulletType": "trap",
+          "projectile": 0,
+          "damageMultiplier": 0.34,
+          "reloadMultiplier": 1.12,
+          "speedMultiplier": 0.92,
+          "bulletSizeMultiplier": 0.95,
+          "lifetime": 12,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.1,
+          "angle": 0,
+          "order": 2
+        },
+        {
+          "distance": 68,
+          "muzzleScale": 1,
+          "bulletType": "trap",
+          "projectile": 0,
+          "damageMultiplier": 0.34,
+          "reloadMultiplier": 1.12,
+          "speedMultiplier": 0.92,
+          "bulletSizeMultiplier": 0.95,
+          "lifetime": 12,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.1,
+          "angle": 0.23,
+          "order": 3
+        }
+      ],
+      "helpText": "Specialized trap pattern with a deliberate damage and coverage trade-off.",
+      "advancesInto": [
+        101213,
+        101214
+      ]
+    },
+    {
+      "id": 101108,
+      "name": "Seedbank",
+      "minLevel": 30,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 134,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 0.97,
+      "projectiles": [
+        {
+          "name": "Trap",
+          "base": "trap",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101004
+      ],
+      "barrels": [
+        {
+          "distance": 67,
+          "muzzleScale": 1,
+          "bulletType": "trap",
+          "projectile": 0,
+          "damageMultiplier": 0.48,
+          "reloadMultiplier": 1.23,
+          "speedMultiplier": 0.9,
+          "bulletSizeMultiplier": 1,
+          "lifetime": 12,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.1,
+          "offset": -19,
+          "order": 1
+        },
+        {
+          "distance": 67,
+          "muzzleScale": 1,
+          "bulletType": "trap",
+          "projectile": 0,
+          "damageMultiplier": 0.48,
+          "reloadMultiplier": 1.23,
+          "speedMultiplier": 0.9,
+          "bulletSizeMultiplier": 1,
+          "lifetime": 12,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.1,
+          "offset": 19,
+          "delay": 0.24,
+          "order": 2
+        }
+      ],
+      "helpText": "Specialized trap pattern with a deliberate damage and coverage trade-off.",
+      "advancesInto": [
+        101215,
+        101216
+      ]
+    },
+    {
+      "id": 101109,
+      "name": "Needle Rail",
+      "minLevel": 30,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 112,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 0.97,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101005
+      ],
+      "barrels": [
+        {
+          "distance": 118,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 1.48,
+          "reloadMultiplier": 1.48,
+          "speedMultiplier": 1.28,
+          "bulletSizeMultiplier": 0.98,
+          "lifetime": 1.65,
+          "spreadMultiplier": 0.05,
+          "recoilMultiplier": 0.8,
+          "penetrationMultiplier": 1.15
+        }
+      ],
+      "helpText": "Specialized bullet pattern with a deliberate damage and coverage trade-off.",
+      "zoomMultiplier": 1.07,
+      "advancesInto": [
+        101217,
+        101218
+      ]
+    },
+    {
+      "id": 101110,
+      "name": "Beacon",
+      "minLevel": 30,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 118,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 1.01,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101005
+      ],
+      "barrels": [
+        {
+          "distance": 106,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.8,
+          "reloadMultiplier": 0.82,
+          "speedMultiplier": 1.3,
+          "bulletSizeMultiplier": 0.78,
+          "lifetime": 1.5,
+          "spreadMultiplier": 0.06,
+          "recoilMultiplier": 0.25
+        }
+      ],
+      "helpText": "Specialized bullet pattern with a deliberate damage and coverage trade-off.",
+      "zoomMultiplier": 1.04,
+      "advancesInto": [
+        101219,
+        101220
+      ]
+    },
+    {
+      "id": 101111,
+      "name": "Flank Array",
+      "minLevel": 30,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 127,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 1.02,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101006
+      ],
+      "barrels": [
+        {
+          "distance": 77,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.4,
+          "reloadMultiplier": 1.08,
+          "speedMultiplier": 1,
+          "bulletSizeMultiplier": 0.83,
+          "lifetime": 0.95,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.25,
+          "angle": 0,
+          "order": 1
+        },
+        {
+          "distance": 70,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.3,
+          "reloadMultiplier": 1.08,
+          "speedMultiplier": 1,
+          "bulletSizeMultiplier": 0.78,
+          "lifetime": 0.9,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.2,
+          "angle": 1.5707963267948966,
+          "order": 2
+        },
+        {
+          "distance": 75,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.4,
+          "reloadMultiplier": 1.08,
+          "speedMultiplier": 1,
+          "bulletSizeMultiplier": 0.83,
+          "lifetime": 0.95,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.25,
+          "angle": 3.141592653589793,
+          "order": 3
+        },
+        {
+          "distance": 70,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.3,
+          "reloadMultiplier": 1.08,
+          "speedMultiplier": 1,
+          "bulletSizeMultiplier": 0.78,
+          "lifetime": 0.9,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.2,
+          "angle": -1.5707963267948966,
+          "order": 4
+        }
+      ],
+      "helpText": "Specialized bullet pattern with a deliberate damage and coverage trade-off.",
+      "advancesInto": [
+        101221,
+        101222
+      ]
+    },
+    {
+      "id": 101112,
+      "name": "Tailwind",
+      "minLevel": 30,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 118,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 1.12,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101006
+      ],
+      "barrels": [
+        {
+          "distance": 79,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.72,
+          "reloadMultiplier": 0.95,
+          "speedMultiplier": 1.05,
+          "bulletSizeMultiplier": 0.88,
+          "lifetime": 1,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.25,
+          "angle": 0,
+          "order": 1
+        },
+        {
+          "distance": 67,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.42,
+          "reloadMultiplier": 0.95,
+          "speedMultiplier": 1.05,
+          "bulletSizeMultiplier": 0.78,
+          "lifetime": 0.9,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.15,
+          "angle": 3.141592653589793,
+          "order": 2
+        }
+      ],
+      "helpText": "Specialized bullet pattern with a deliberate damage and coverage trade-off.",
+      "advancesInto": [
+        101223,
+        101224
+      ]
+    },
+    {
+      "id": 101201,
+      "name": "Loom",
+      "minLevel": 45,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 120,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 1,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101101
+      ],
+      "barrels": [
+        {
+          "distance": 82,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.32,
+          "reloadMultiplier": 1,
+          "speedMultiplier": 1.06,
+          "bulletSizeMultiplier": 0.78,
+          "lifetime": 1,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.18,
+          "offset": -24,
+          "order": 1
+        },
+        {
+          "distance": 85,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.32,
+          "reloadMultiplier": 1,
+          "speedMultiplier": 1.06,
+          "bulletSizeMultiplier": 0.78,
+          "lifetime": 1,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.18,
+          "offset": -8,
+          "order": 2
+        },
+        {
+          "distance": 85,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.32,
+          "reloadMultiplier": 1,
+          "speedMultiplier": 1.06,
+          "bulletSizeMultiplier": 0.78,
+          "lifetime": 1,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.18,
+          "offset": 8,
+          "order": 3
+        },
+        {
+          "distance": 82,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.32,
+          "reloadMultiplier": 1,
+          "speedMultiplier": 1.06,
+          "bulletSizeMultiplier": 0.78,
+          "lifetime": 1,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.18,
+          "offset": 24,
+          "order": 4
+        }
+      ],
+      "helpText": "Specialized bullet pattern with a deliberate damage and coverage trade-off."
+    },
+    {
+      "id": 101202,
+      "name": "Pinpoint",
+      "minLevel": 45,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 116,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 0.99,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101101
+      ],
+      "barrels": [
+        {
+          "distance": 91,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.86,
+          "reloadMultiplier": 1.34,
+          "speedMultiplier": 1.17,
+          "bulletSizeMultiplier": 0.94,
+          "lifetime": 1.2,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.45,
+          "offset": -12,
+          "order": 1
+        },
+        {
+          "distance": 91,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.86,
+          "reloadMultiplier": 1.34,
+          "speedMultiplier": 1.17,
+          "bulletSizeMultiplier": 0.94,
+          "lifetime": 1.2,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.45,
+          "offset": 12,
+          "order": 2
+        }
+      ],
+      "helpText": "Specialized bullet pattern with a deliberate damage and coverage trade-off."
+    },
+    {
+      "id": 101203,
+      "name": "Crosshatch",
+      "minLevel": 45,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 118,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 1,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101102
+      ],
+      "barrels": [
+        {
+          "distance": 80,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.37,
+          "reloadMultiplier": 1.08,
+          "speedMultiplier": 1.08,
+          "bulletSizeMultiplier": 0.8,
+          "lifetime": 1,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.18,
+          "angle": -0.28,
+          "order": 1
+        },
+        {
+          "distance": 84,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.4,
+          "reloadMultiplier": 1.08,
+          "speedMultiplier": 1.08,
+          "bulletSizeMultiplier": 0.8,
+          "lifetime": 1,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.18,
+          "angle": -0.09,
+          "order": 2
+        },
+        {
+          "distance": 84,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.4,
+          "reloadMultiplier": 1.08,
+          "speedMultiplier": 1.08,
+          "bulletSizeMultiplier": 0.8,
+          "lifetime": 1,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.18,
+          "angle": 0.09,
+          "order": 3
+        },
+        {
+          "distance": 80,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.37,
+          "reloadMultiplier": 1.08,
+          "speedMultiplier": 1.08,
+          "bulletSizeMultiplier": 0.8,
+          "lifetime": 1,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.18,
+          "angle": 0.28,
+          "order": 4
+        }
+      ],
+      "helpText": "Specialized bullet pattern with a deliberate damage and coverage trade-off."
+    },
+    {
+      "id": 101204,
+      "name": "Needle Rain",
+      "minLevel": 45,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 121,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 1.01,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101102
+      ],
+      "barrels": [
+        {
+          "distance": 78,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.22,
+          "reloadMultiplier": 0.83,
+          "speedMultiplier": 1.03,
+          "bulletSizeMultiplier": 0.67,
+          "lifetime": 0.85,
+          "spreadMultiplier": 1.5,
+          "recoilMultiplier": 0.12,
+          "numBullets": 4
+        }
+      ],
+      "helpText": "Specialized bullet pattern with a deliberate damage and coverage trade-off."
+    },
+    {
+      "id": 101205,
+      "name": "Starfall",
+      "minLevel": 45,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 126,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 0.99,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101103
+      ],
+      "barrels": [
+        {
+          "distance": 77,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.14,
+          "reloadMultiplier": 1.02,
+          "speedMultiplier": 1,
+          "bulletSizeMultiplier": 0.62,
+          "lifetime": 0.86,
+          "spreadMultiplier": 1.48,
+          "recoilMultiplier": 0.25,
+          "numBullets": 7
+        }
+      ],
+      "helpText": "Specialized bullet pattern with a deliberate damage and coverage trade-off."
+    },
+    {
+      "id": 101206,
+      "name": "Buckler Burst",
+      "minLevel": 45,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 136,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 0.97,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101103
+      ],
+      "barrels": [
+        {
+          "distance": 75,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.27,
+          "reloadMultiplier": 1.22,
+          "speedMultiplier": 0.95,
+          "bulletSizeMultiplier": 0.77,
+          "lifetime": 0.9,
+          "spreadMultiplier": 0.95,
+          "recoilMultiplier": 0.5,
+          "numBullets": 5,
+          "knockbackMultiplier": 1.25
+        }
+      ],
+      "helpText": "Specialized bullet pattern with a deliberate damage and coverage trade-off."
+    },
+    {
+      "id": 101207,
+      "name": "Prism Split",
+      "minLevel": 45,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 123,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 0.99,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101104
+      ],
+      "barrels": [
+        {
+          "distance": 78,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.25,
+          "reloadMultiplier": 1.08,
+          "speedMultiplier": 1.04,
+          "bulletSizeMultiplier": 0.76,
+          "lifetime": 0.95,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.2,
+          "angle": -0.4,
+          "order": 1
+        },
+        {
+          "distance": 80,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.27,
+          "reloadMultiplier": 1.08,
+          "speedMultiplier": 1.04,
+          "bulletSizeMultiplier": 0.76,
+          "lifetime": 0.95,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.2,
+          "angle": -0.2,
+          "order": 2
+        },
+        {
+          "distance": 82,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.3,
+          "reloadMultiplier": 1.08,
+          "speedMultiplier": 1.04,
+          "bulletSizeMultiplier": 0.78,
+          "lifetime": 0.98,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.2,
+          "angle": 0,
+          "order": 3
+        },
+        {
+          "distance": 80,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.27,
+          "reloadMultiplier": 1.08,
+          "speedMultiplier": 1.04,
+          "bulletSizeMultiplier": 0.76,
+          "lifetime": 0.95,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.2,
+          "angle": 0.2,
+          "order": 4
+        },
+        {
+          "distance": 78,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.25,
+          "reloadMultiplier": 1.08,
+          "speedMultiplier": 1.04,
+          "bulletSizeMultiplier": 0.76,
+          "lifetime": 0.95,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.2,
+          "angle": 0.4,
+          "order": 5
+        }
+      ],
+      "helpText": "Specialized bullet pattern with a deliberate damage and coverage trade-off."
+    },
+    {
+      "id": 101208,
+      "name": "Curtain",
+      "minLevel": 45,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 127,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 0.99,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101104
+      ],
+      "barrels": [
+        {
+          "distance": 77,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.25,
+          "reloadMultiplier": 1.05,
+          "speedMultiplier": 1,
+          "bulletSizeMultiplier": 0.72,
+          "lifetime": 0.92,
+          "spreadMultiplier": 0.65,
+          "recoilMultiplier": 0.2,
+          "angle": -0.3,
+          "numBullets": 2,
+          "order": 1
+        },
+        {
+          "distance": 80,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.25,
+          "reloadMultiplier": 1.05,
+          "speedMultiplier": 1,
+          "bulletSizeMultiplier": 0.72,
+          "lifetime": 0.92,
+          "spreadMultiplier": 0.65,
+          "recoilMultiplier": 0.2,
+          "angle": 0,
+          "numBullets": 2,
+          "order": 2
+        },
+        {
+          "distance": 77,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.25,
+          "reloadMultiplier": 1.05,
+          "speedMultiplier": 1,
+          "bulletSizeMultiplier": 0.72,
+          "lifetime": 0.92,
+          "spreadMultiplier": 0.65,
+          "recoilMultiplier": 0.2,
+          "angle": 0.3,
+          "numBullets": 2,
+          "order": 3
+        }
+      ],
+      "helpText": "Specialized bullet pattern with a deliberate damage and coverage trade-off."
+    },
+    {
+      "id": 101209,
+      "name": "Avalanche",
+      "minLevel": 45,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 140,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 0.95,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101105
+      ],
+      "barrels": [
+        {
+          "distance": 75,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.82,
+          "reloadMultiplier": 1.42,
+          "speedMultiplier": 0.84,
+          "bulletSizeMultiplier": 1.13,
+          "lifetime": 0.9,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.85,
+          "offset": -13,
+          "knockbackMultiplier": 1.45,
+          "order": 1
+        },
+        {
+          "distance": 75,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.82,
+          "reloadMultiplier": 1.42,
+          "speedMultiplier": 0.84,
+          "bulletSizeMultiplier": 1.13,
+          "lifetime": 0.9,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.85,
+          "offset": 13,
+          "knockbackMultiplier": 1.45,
+          "order": 2
+        }
+      ],
+      "helpText": "Specialized bullet pattern with a deliberate damage and coverage trade-off."
+    },
+    {
+      "id": 101210,
+      "name": "Anchor",
+      "minLevel": 45,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 145,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 0.92,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101105
+      ],
+      "barrels": [
+        {
+          "distance": 72,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 1.24,
+          "reloadMultiplier": 1.32,
+          "speedMultiplier": 0.73,
+          "bulletSizeMultiplier": 1.23,
+          "lifetime": 0.95,
+          "spreadMultiplier": 0.06,
+          "recoilMultiplier": 1,
+          "penetrationMultiplier": 1.2,
+          "knockbackMultiplier": 2.1
+        }
+      ],
+      "helpText": "Specialized bullet pattern with a deliberate damage and coverage trade-off."
+    },
+    {
+      "id": 101211,
+      "name": "Double Down",
+      "minLevel": 45,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 129,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 1,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101106
+      ],
+      "barrels": [
+        {
+          "distance": 79,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.81,
+          "reloadMultiplier": 1.18,
+          "speedMultiplier": 1.02,
+          "bulletSizeMultiplier": 0.9,
+          "lifetime": 0.95,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.35,
+          "order": 1
+        },
+        {
+          "distance": 79,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.68,
+          "reloadMultiplier": 1.18,
+          "speedMultiplier": 1.02,
+          "bulletSizeMultiplier": 0.87,
+          "lifetime": 0.92,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.35,
+          "delay": 0.28,
+          "order": 2
+        }
+      ],
+      "helpText": "Specialized bullet pattern with a deliberate damage and coverage trade-off."
+    },
+    {
+      "id": 101212,
+      "name": "Repeater",
+      "minLevel": 45,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 122,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 1.02,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101106
+      ],
+      "barrels": [
+        {
+          "distance": 78,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.4,
+          "reloadMultiplier": 0.92,
+          "speedMultiplier": 1,
+          "bulletSizeMultiplier": 0.75,
+          "lifetime": 0.9,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.15,
+          "order": 1
+        },
+        {
+          "distance": 78,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.4,
+          "reloadMultiplier": 0.92,
+          "speedMultiplier": 1,
+          "bulletSizeMultiplier": 0.75,
+          "lifetime": 0.9,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.15,
+          "delay": 0.15,
+          "order": 2
+        },
+        {
+          "distance": 78,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.4,
+          "reloadMultiplier": 0.92,
+          "speedMultiplier": 1,
+          "bulletSizeMultiplier": 0.75,
+          "lifetime": 0.9,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.15,
+          "delay": 0.3,
+          "order": 3
+        }
+      ],
+      "helpText": "Specialized bullet pattern with a deliberate damage and coverage trade-off."
+    },
+    {
+      "id": 101213,
+      "name": "Hedge Maze",
+      "minLevel": 45,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 133,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 0.99,
+      "projectiles": [
+        {
+          "name": "Trap",
+          "base": "trap",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101107
+      ],
+      "barrels": [
+        {
+          "distance": 68,
+          "muzzleScale": 1,
+          "bulletType": "trap",
+          "projectile": 0,
+          "damageMultiplier": 0.4,
+          "reloadMultiplier": 1.04,
+          "speedMultiplier": 0.94,
+          "bulletSizeMultiplier": 0.95,
+          "lifetime": 12.5,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.1,
+          "angle": -0.28,
+          "order": 1
+        },
+        {
+          "distance": 71,
+          "muzzleScale": 1,
+          "bulletType": "trap",
+          "projectile": 0,
+          "damageMultiplier": 0.4,
+          "reloadMultiplier": 1.04,
+          "speedMultiplier": 0.94,
+          "bulletSizeMultiplier": 0.95,
+          "lifetime": 12.5,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.1,
+          "angle": 0,
+          "order": 2
+        },
+        {
+          "distance": 68,
+          "muzzleScale": 1,
+          "bulletType": "trap",
+          "projectile": 0,
+          "damageMultiplier": 0.4,
+          "reloadMultiplier": 1.04,
+          "speedMultiplier": 0.94,
+          "bulletSizeMultiplier": 0.95,
+          "lifetime": 12.5,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.1,
+          "angle": 0.28,
+          "order": 3
+        }
+      ],
+      "helpText": "Specialized trap pattern with a deliberate damage and coverage trade-off."
+    },
+    {
+      "id": 101214,
+      "name": "Briar Cage",
+      "minLevel": 45,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 137,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 0.97,
+      "projectiles": [
+        {
+          "name": "Trap",
+          "base": "trap",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101107
+      ],
+      "barrels": [
+        {
+          "distance": 66,
+          "muzzleScale": 1,
+          "bulletType": "trap",
+          "projectile": 0,
+          "damageMultiplier": 0.23,
+          "reloadMultiplier": 1.12,
+          "speedMultiplier": 0.9,
+          "bulletSizeMultiplier": 0.9,
+          "lifetime": 12,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.08,
+          "angle": -0.43,
+          "order": 1
+        },
+        {
+          "distance": 69,
+          "muzzleScale": 1,
+          "bulletType": "trap",
+          "projectile": 0,
+          "damageMultiplier": 0.24,
+          "reloadMultiplier": 1.12,
+          "speedMultiplier": 0.9,
+          "bulletSizeMultiplier": 0.9,
+          "lifetime": 12,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.08,
+          "angle": -0.21,
+          "order": 2
+        },
+        {
+          "distance": 72,
+          "muzzleScale": 1,
+          "bulletType": "trap",
+          "projectile": 0,
+          "damageMultiplier": 0.25,
+          "reloadMultiplier": 1.12,
+          "speedMultiplier": 0.9,
+          "bulletSizeMultiplier": 0.9,
+          "lifetime": 12,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.08,
+          "angle": 0,
+          "order": 3
+        },
+        {
+          "distance": 69,
+          "muzzleScale": 1,
+          "bulletType": "trap",
+          "projectile": 0,
+          "damageMultiplier": 0.24,
+          "reloadMultiplier": 1.12,
+          "speedMultiplier": 0.9,
+          "bulletSizeMultiplier": 0.9,
+          "lifetime": 12,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.08,
+          "angle": 0.21,
+          "order": 4
+        },
+        {
+          "distance": 66,
+          "muzzleScale": 1,
+          "bulletType": "trap",
+          "projectile": 0,
+          "damageMultiplier": 0.23,
+          "reloadMultiplier": 1.12,
+          "speedMultiplier": 0.9,
+          "bulletSizeMultiplier": 0.9,
+          "lifetime": 12,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.08,
+          "angle": 0.43,
+          "order": 5
+        }
+      ],
+      "helpText": "Specialized trap pattern with a deliberate damage and coverage trade-off."
+    },
+    {
+      "id": 101215,
+      "name": "Bloomfield",
+      "minLevel": 45,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 135,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 0.98,
+      "projectiles": [
+        {
+          "name": "Trap",
+          "base": "trap",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101108
+      ],
+      "barrels": [
+        {
+          "distance": 68,
+          "muzzleScale": 1,
+          "bulletType": "trap",
+          "projectile": 0,
+          "damageMultiplier": 0.3,
+          "reloadMultiplier": 1.1,
+          "speedMultiplier": 0.92,
+          "bulletSizeMultiplier": 0.9,
+          "lifetime": 12,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.08,
+          "offset": -27,
+          "order": 1
+        },
+        {
+          "distance": 70,
+          "muzzleScale": 1,
+          "bulletType": "trap",
+          "projectile": 0,
+          "damageMultiplier": 0.3,
+          "reloadMultiplier": 1.1,
+          "speedMultiplier": 0.92,
+          "bulletSizeMultiplier": 0.9,
+          "lifetime": 12,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.08,
+          "offset": -9,
+          "order": 2
+        },
+        {
+          "distance": 70,
+          "muzzleScale": 1,
+          "bulletType": "trap",
+          "projectile": 0,
+          "damageMultiplier": 0.3,
+          "reloadMultiplier": 1.1,
+          "speedMultiplier": 0.92,
+          "bulletSizeMultiplier": 0.9,
+          "lifetime": 12,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.08,
+          "offset": 9,
+          "order": 3
+        },
+        {
+          "distance": 68,
+          "muzzleScale": 1,
+          "bulletType": "trap",
+          "projectile": 0,
+          "damageMultiplier": 0.3,
+          "reloadMultiplier": 1.1,
+          "speedMultiplier": 0.92,
+          "bulletSizeMultiplier": 0.9,
+          "lifetime": 12,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.08,
+          "offset": 27,
+          "order": 4
+        }
+      ],
+      "helpText": "Specialized trap pattern with a deliberate damage and coverage trade-off."
+    },
+    {
+      "id": 101216,
+      "name": "Mine Choir",
+      "minLevel": 45,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 132,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 0.98,
+      "projectiles": [
+        {
+          "name": "Trap",
+          "base": "trap",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101108
+      ],
+      "barrels": [
+        {
+          "distance": 68,
+          "muzzleScale": 1,
+          "bulletType": "trap",
+          "projectile": 0,
+          "damageMultiplier": 0.38,
+          "reloadMultiplier": 1.2,
+          "speedMultiplier": 0.9,
+          "bulletSizeMultiplier": 0.96,
+          "lifetime": 12,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.08,
+          "angle": -0.25,
+          "order": 1
+        },
+        {
+          "distance": 70,
+          "muzzleScale": 1,
+          "bulletType": "trap",
+          "projectile": 0,
+          "damageMultiplier": 0.38,
+          "reloadMultiplier": 1.2,
+          "speedMultiplier": 0.9,
+          "bulletSizeMultiplier": 0.96,
+          "lifetime": 12,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.08,
+          "angle": 0,
+          "delay": 0.22,
+          "order": 2
+        },
+        {
+          "distance": 68,
+          "muzzleScale": 1,
+          "bulletType": "trap",
+          "projectile": 0,
+          "damageMultiplier": 0.38,
+          "reloadMultiplier": 1.2,
+          "speedMultiplier": 0.9,
+          "bulletSizeMultiplier": 0.96,
+          "lifetime": 12,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.08,
+          "angle": 0.25,
+          "delay": 0.44,
+          "order": 3
+        }
+      ],
+      "helpText": "Specialized trap pattern with a deliberate damage and coverage trade-off."
+    },
+    {
+      "id": 101217,
+      "name": "Horizon",
+      "minLevel": 45,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 110,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 0.95,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101109
+      ],
+      "barrels": [
+        {
+          "distance": 124,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 1.72,
+          "reloadMultiplier": 1.62,
+          "speedMultiplier": 1.34,
+          "bulletSizeMultiplier": 1,
+          "lifetime": 1.7,
+          "spreadMultiplier": 0.035,
+          "recoilMultiplier": 0.95,
+          "penetrationMultiplier": 1.25
+        }
+      ],
+      "helpText": "Specialized bullet pattern with a deliberate damage and coverage trade-off.",
+      "zoomMultiplier": 1.1
+    },
+    {
+      "id": 101218,
+      "name": "Piercer",
+      "minLevel": 45,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 112,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 0.98,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101109
+      ],
+      "barrels": [
+        {
+          "distance": 118,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 1.18,
+          "reloadMultiplier": 1,
+          "speedMultiplier": 1.42,
+          "bulletSizeMultiplier": 0.84,
+          "lifetime": 1.8,
+          "spreadMultiplier": 0.04,
+          "recoilMultiplier": 0.5,
+          "penetrationMultiplier": 1.5
+        }
+      ],
+      "helpText": "Specialized bullet pattern with a deliberate damage and coverage trade-off.",
+      "zoomMultiplier": 1.08
+    },
+    {
+      "id": 101219,
+      "name": "Quickmark",
+      "minLevel": 45,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 119,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 1.03,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101110
+      ],
+      "barrels": [
+        {
+          "distance": 105,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.58,
+          "reloadMultiplier": 0.72,
+          "speedMultiplier": 1.28,
+          "bulletSizeMultiplier": 0.72,
+          "lifetime": 1.45,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.18,
+          "offset": -10,
+          "order": 1
+        },
+        {
+          "distance": 105,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.58,
+          "reloadMultiplier": 0.72,
+          "speedMultiplier": 1.28,
+          "bulletSizeMultiplier": 0.72,
+          "lifetime": 1.45,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.18,
+          "offset": 10,
+          "order": 2
+        }
+      ],
+      "helpText": "Specialized bullet pattern with a deliberate damage and coverage trade-off.",
+      "zoomMultiplier": 1.03
+    },
+    {
+      "id": 101220,
+      "name": "Lighthouse",
+      "minLevel": 45,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 122,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 0.99,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101110
+      ],
+      "barrels": [
+        {
+          "distance": 117,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.98,
+          "reloadMultiplier": 1.18,
+          "speedMultiplier": 1.3,
+          "bulletSizeMultiplier": 0.92,
+          "lifetime": 1.8,
+          "spreadMultiplier": 0.05,
+          "recoilMultiplier": 0.42
+        }
+      ],
+      "helpText": "Specialized bullet pattern with a deliberate damage and coverage trade-off.",
+      "zoomMultiplier": 1.13
+    },
+    {
+      "id": 101221,
+      "name": "Pinwheel",
+      "minLevel": 45,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 128,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 1.02,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101111
+      ],
+      "barrels": [
+        {
+          "distance": 77,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.31,
+          "reloadMultiplier": 1.02,
+          "speedMultiplier": 1,
+          "bulletSizeMultiplier": 0.76,
+          "lifetime": 0.9,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.16,
+          "angle": 0,
+          "order": 1
+        },
+        {
+          "distance": 70,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.31,
+          "reloadMultiplier": 1.02,
+          "speedMultiplier": 1,
+          "bulletSizeMultiplier": 0.76,
+          "lifetime": 0.9,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.16,
+          "angle": 1.5707963267948966,
+          "order": 2
+        },
+        {
+          "distance": 75,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.31,
+          "reloadMultiplier": 1.02,
+          "speedMultiplier": 1,
+          "bulletSizeMultiplier": 0.76,
+          "lifetime": 0.9,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.16,
+          "angle": 3.141592653589793,
+          "order": 3
+        },
+        {
+          "distance": 70,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.31,
+          "reloadMultiplier": 1.02,
+          "speedMultiplier": 1,
+          "bulletSizeMultiplier": 0.76,
+          "lifetime": 0.9,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.16,
+          "angle": -1.5707963267948966,
+          "order": 4
+        }
+      ],
+      "helpText": "Specialized bullet pattern with a deliberate damage and coverage trade-off."
+    },
+    {
+      "id": 101222,
+      "name": "Sidewinder",
+      "minLevel": 45,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 126,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 1.04,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101111
+      ],
+      "barrels": [
+        {
+          "distance": 79,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.48,
+          "reloadMultiplier": 1,
+          "speedMultiplier": 1.04,
+          "bulletSizeMultiplier": 0.8,
+          "lifetime": 0.95,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.2,
+          "angle": -0.2,
+          "order": 1
+        },
+        {
+          "distance": 82,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.58,
+          "reloadMultiplier": 1,
+          "speedMultiplier": 1.04,
+          "bulletSizeMultiplier": 0.83,
+          "lifetime": 0.98,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.22,
+          "angle": 0,
+          "order": 2
+        },
+        {
+          "distance": 79,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.48,
+          "reloadMultiplier": 1,
+          "speedMultiplier": 1.04,
+          "bulletSizeMultiplier": 0.8,
+          "lifetime": 0.95,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.2,
+          "angle": 0.2,
+          "order": 3
+        },
+        {
+          "distance": 68,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.38,
+          "reloadMultiplier": 1,
+          "speedMultiplier": 1,
+          "bulletSizeMultiplier": 0.75,
+          "lifetime": 0.9,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.15,
+          "angle": 3.141592653589793,
+          "order": 4
+        }
+      ],
+      "helpText": "Specialized bullet pattern with a deliberate damage and coverage trade-off."
+    },
+    {
+      "id": 101223,
+      "name": "Slipstream",
+      "minLevel": 45,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 116,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 1.15,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101112
+      ],
+      "barrels": [
+        {
+          "distance": 80,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.62,
+          "reloadMultiplier": 0.82,
+          "speedMultiplier": 1.12,
+          "bulletSizeMultiplier": 0.78,
+          "lifetime": 0.96,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.18,
+          "offset": -11,
+          "order": 1
+        },
+        {
+          "distance": 80,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.62,
+          "reloadMultiplier": 0.82,
+          "speedMultiplier": 1.12,
+          "bulletSizeMultiplier": 0.78,
+          "lifetime": 0.96,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.18,
+          "offset": 11,
+          "order": 2
+        }
+      ],
+      "helpText": "Specialized bullet pattern with a deliberate damage and coverage trade-off."
+    },
+    {
+      "id": 101224,
+      "name": "Windmill",
+      "minLevel": 45,
+      "body": {
+        "sides": 0,
+        "size": 40
+      },
+      "baseHealth": 125,
+      "baseBodyDamage": 0,
+      "speedMultiplier": 1.03,
+      "projectiles": [
+        {
+          "name": "Bullet",
+          "base": "bullet",
+          "sides": -1
+        }
+      ],
+      "invisibility": {
+        "gain": 0.03076923076923077,
+        "lossOnHit": 0.05
+      },
+      "statsMaxLevel": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "upgradesFrom": [
+        101112
+      ],
+      "barrels": [
+        {
+          "distance": 77,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.38,
+          "reloadMultiplier": 0.98,
+          "speedMultiplier": 1,
+          "bulletSizeMultiplier": 0.75,
+          "lifetime": 0.9,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.16,
+          "angle": 0,
+          "order": 1
+        },
+        {
+          "distance": 70,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.38,
+          "reloadMultiplier": 0.98,
+          "speedMultiplier": 1,
+          "bulletSizeMultiplier": 0.75,
+          "lifetime": 0.9,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.16,
+          "angle": 1.5707963267948966,
+          "order": 2
+        },
+        {
+          "distance": 74,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.38,
+          "reloadMultiplier": 0.98,
+          "speedMultiplier": 1,
+          "bulletSizeMultiplier": 0.75,
+          "lifetime": 0.9,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.16,
+          "angle": 3.141592653589793,
+          "order": 3
+        },
+        {
+          "distance": 70,
+          "muzzleScale": 1,
+          "bulletType": "bullet",
+          "projectile": 0,
+          "damageMultiplier": 0.38,
+          "reloadMultiplier": 0.98,
+          "speedMultiplier": 1,
+          "bulletSizeMultiplier": 0.75,
+          "lifetime": 0.9,
+          "spreadMultiplier": 0.1,
+          "recoilMultiplier": 0.16,
+          "angle": -1.5707963267948966,
+          "order": 4
+        }
+      ],
+      "helpText": "Specialized bullet pattern with a deliberate damage and coverage trade-off."
+    }
+  ]
+}
